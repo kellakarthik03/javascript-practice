@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <script>
+       function fn(){
+       var e1= document.getElementById("title");
+       e1.innerText="welcome to dom concept";
+       var count=0;
+       for(var i in document){
+        count++;
+       }
+       console.log(count);
+       }
+    </script>
+</head>
+<body>
+      <div>
+        <h2  id="title">DOM CONCEPT JAVASCRIPT</h2>
+         ENTER PASSWORD     :<input type="text" width="30px" height="20px"/>
+       <button onclick="fn()">sign</button>
+      </div>
+</body>
+</html>
